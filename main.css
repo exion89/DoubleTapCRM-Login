@@ -16,12 +16,14 @@ a {
     position: absolute;
     left: -1430px;
     top: -1238px;
+    z-index: 1;
 }
 
 .signup-button {
     position: absolute;
     left: 270px;
     top: 220px;
+    z-index: 2;
 }
 
 .signup-button button {
@@ -44,11 +46,48 @@ a {
     margin: 50px 45px;
     font-size: 14px;
     color: white;
+    z-index: 2;
 }
 
 .space-graphic {
     position: absolute;
     top: 300px;
     left: 150px;
+    z-index: 2;
 }
 
+.main-signin {
+    align-items: right;
+    position: relative;
+    z-index: 3;
+}
+
+.main-signin h1 {
+    text-align: right;
+}
+
+.username-form {
+    float: right;
+    clear: both;
+}
+
+.email-form {
+    float: right;
+    clear: both;
+}
+
+.password-form {
+    float: right;
+    clear: both;
+}
+
+.signin-button {
+    float: right;
+    clear: both;
+
+}
+
+.social-text {
+    text-align: right;
+    clear: both;
+}
