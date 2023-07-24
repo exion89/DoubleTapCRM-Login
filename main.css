@@ -60,34 +60,111 @@ a {
     align-items: right;
     position: relative;
     z-index: 3;
+
 }
 
 .main-signin h1 {
     text-align: right;
+    font-size: 50px;
+    font-weight: 500px;
+    margin-right: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .username-form {
     float: right;
     clear: both;
+    margin-right: 220px;
+    margin-left: 1140px;
+    margin-bottom: 50px;
+
+}
+
+.username-form input {
+    border-radius: 25px;
+    padding: 10px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    font-family: 'FontAwesome', Roboto;
+    font-style: normal;
 }
 
 .email-form {
     float: right;
     clear: both;
+    margin-right: 220px;
+    margin-bottom: 50px;
+}
+
+.email-form input {
+    border-radius: 25px;
+    padding: 10px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    font-family: 'FontAwesome', Roboto;
 }
 
 .password-form {
     float: right;
     clear: both;
+    margin-right: 220px;
+    margin-bottom: 50px;
+}
+
+.password-form input {
+    border-radius: 25px;
+    padding: 10px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    font-family: 'FontAwesome';
 }
 
 .signin-button {
     float: right;
     clear: both;
+    margin-right: 220px;
+    margin-bottom: 50px;
 
+}
+
+.signin-button button{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .social-text {
     text-align: right;
     clear: both;
+    margin-right: 280px;
 }
+
+.social-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 50px;
+    margin-right: 170px;
+    margin-top: 25px;
+    z-index: 1;
+    position: relative;
+}
+
+.social-buttons span {
+    position: relative;
+    z-index: 2;
+    float: left;
+    align-items: center;
+}
+
+
